@@ -1,0 +1,40 @@
+body {
+  background-color: yellow;
+}
+#container {
+  border: 1px solid black;
+  margin: auto;
+  width: 500px;
+  background-color: white;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.person img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.container button {
+  color: black;
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  padding: 10px;
+}
+button:hover {
+  background-color: lightgray;
+}
+
+img {
+  margin: 0px 20px 0px 140px;
+}
+h1 { 
+  text-align: center;
+}
